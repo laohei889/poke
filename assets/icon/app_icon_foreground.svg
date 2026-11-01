@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- 手欠 App 自适应图标前景层：球体缩入安全区（中心 66%），透明底 -->
+  <g transform="translate(512 512) scale(0.82) translate(-512 -512)">
+    <!-- 动感弧线 -->
+    <path d="M 770 400 A 120 120 0 0 1 770 624"
+          fill="none" stroke="#3DDC97" stroke-opacity="0.55"
+          stroke-width="22" stroke-linecap="round"/>
+    <path d="M 820 470 A 70 70 0 0 1 820 554"
+          fill="none" stroke="#3DDC97" stroke-opacity="0.35"
+          stroke-width="18" stroke-linecap="round"/>
+
+    <!-- 主球体：左侧被戳凹 -->
+    <path d="M 267.3 397.9
+             A 270 270 0 1 1 267.3 626.1
+             Q 430 512 267.3 397.9 Z"
+          fill="#3DDC97"/>
+
+    <!-- 凹陷阴影 -->
+    <path d="M 275 615
+             Q 420 512 275 409
+             Q 398 512 275 615 Z"
+          fill="#2BB57A" fill-opacity="0.55"/>
+
+    <!-- 高光 -->
+    <ellipse cx="400" cy="372" rx="62" ry="38"
+             transform="rotate(-32 400 372)"
+             fill="#FFFFFF" fill-opacity="0.40"/>
+  </g>
+</svg>
